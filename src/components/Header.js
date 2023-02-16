@@ -4,7 +4,9 @@ export default function Header() {
     return(
         <div>
             <Button/>
-            <p>Does this make my life easier?</p>  
+            <p className= "relative m-0 p-4 bg-white-1 bg-opacity-50 \
+                            border border-solid border-brown-1 border-opacity-30 \
+                            rounded-12px">Does this make my life easier?</p>  
         </div>        
     );
 }
