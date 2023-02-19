@@ -12,15 +12,8 @@ module.exports = {
       'Fira Mono', 'Droid Sans Mono', 'Courier New', 'monospace'],
       'Konit' : ['sans-serif'],
     },
-    // backgroundColor: {
-    //   'white-1' : '#EEF0F1',
-
-    // },
     borderColor: {
       'brown-1' : '#ACAFB0',
-    },
-    borderRadius: {
-      '12px' : '12px',
     },
     extend: {
       maxWidth: {
@@ -40,6 +33,10 @@ module.exports = {
       inset: {
         '10%' : '10%',
         '30%' : '30%',
+        '5%'  : '5%',
+      },   
+      borderRadius: {
+        '12px' : '12px',
       },
     },
   },
