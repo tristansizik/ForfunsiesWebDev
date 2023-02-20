@@ -1,20 +1,21 @@
-import { FaBeer, } from 'react-icons/fa'
+import {FaSoundcloud} from 'react-icons/fa'
 import { AiOutlineHome , AiFillCustomerService, AiFillAudio, AiOutlineTwitter, AiFillInstagram, AiOutlineGithub} from "react-icons/ai";
 import { IoShareSocialOutline } from "react-icons/io";
+import Link from 'next/link'
 
 const FootBar = () => {
     return (
       <>
         <div className="flex h-full items-center">
-          <div className="flex relative text-right w-full">
-            <FootBarIcon icon={<AiOutlineTwitter size="20" />} text={"My Twitter"} />
-          </div>
-          <div className="flex relative text-right w-full">
-            <FootBarIcon icon={<AiFillInstagram size="20" />} text={"My Instagram"} />
-          </div>
-          <div className="relative text-right w-full">
-            <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
-         </div>
+            <Link href="https://soundcloud.com/mastless" className="flex relative text-right w-full">
+              <FootBarIcon icon={<FaSoundcloud size="20" />} text={"My Twitter"} />
+            </Link>        
+            <Link href="https://www.instagram.com/mastless_/" className="flex relative text-right w-full">
+              <FootBarIcon icon={<AiFillInstagram size="20" />} text={"My Instagram"} />
+            </Link>
+            <Link href="https://github.com/tristansizik" className="relative text-right w-full">
+              <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
+            </Link>
          </div>
       </>
     );
