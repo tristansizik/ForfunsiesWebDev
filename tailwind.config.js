@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,html,tsx}",
@@ -29,6 +31,9 @@ module.exports = {
         '50%' : '50%',
         '25%' : '25%',
       },
+      height: {
+        '50%' : "50%",
+      },
       inset: {
         '10%' : '10%',
         '30%' : '30%',
@@ -40,6 +45,9 @@ module.exports = {
       },
       borderRadius: {
         '12px' : '12px',
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },
