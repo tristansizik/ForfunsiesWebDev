@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function BodyInfo() {
     return(
-      <main className= "flex flex-col justify-between items-center p-24 min-h-screen">
-        <div className="justify-center items-center sticky top-5% h-24 w-full bg-pink-100 rounded-12px">
+      <main className= "flex flex-col justify-between items-center p-5% min-h-screen">
+        <div className="justify-center items-center sticky top-3% h-24 w-full bg-pink-100 rounded-12px">
           <NavBar/>    
         </div>
         <div className="justify-center flex min-h-screen w-full bg-pink-200">Box 1</div>
