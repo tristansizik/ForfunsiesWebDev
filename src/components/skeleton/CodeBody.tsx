@@ -1,9 +1,16 @@
 import NavBar from '@/components/NavBar'
 import { Inter } from '@next/font/google'
 
-import { P5CanvasInstance, ReactP5Wrapper, Sketch } from 'react-p5-wrapper'
+// import { P5CanvasInstance, ReactP5Wrapper, Sketch } from 'react-p5-wrapper'
 
-import RectangleSketch from '../sketches/RectangleSketch'
+// import RectangleSketch from '../sketches/RectangleSketch'
+import dynamic from 'next/dynamic'
+const RectangleSketch  = dynamic(
+  () => import('../sketches/RectangleSketch'), {
+  ssr:false 
+})
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
