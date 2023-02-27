@@ -48,6 +48,21 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
+      },      
+      keyframes: {
+        'fade-in-down' : {
+          '0%' : { 
+            opacity : '0',
+            transform : 'translateY(15px) translateX(-15px)',
+          },
+          '100%' : { 
+            opacity : '1',
+            transform : 'translateY(0px) translateX(0px)',
+          },
+        },
+      },
+      animation: {
+        'fade-in-p7' : 'fade-in-down .7s ease-in',
       },
     },
   },

@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function BodyInfo() {
     return(
-      <main className= "flex flex-col justify-between items-center p-5% min-h-screen space-y-1">
+      <main className= "flex flex-col justify-between items-center p-5% min-h-screen space-y-1 animate-fade-in-p7">
         <div className="justify-center items-center sticky top-3% h-24 w-full bg-pink-100 rounded-12px">
           <NavBar/>    
         </div>
