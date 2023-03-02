@@ -3,9 +3,11 @@ import { AiOutlineHome , AiFillCustomerService, AiFillAudio} from "react-icons/a
 import { IoShareSocialOutline } from "react-icons/io";
 import Link from 'next/link'
 
-const NavBar = () => {
+const NavBar = (bgColor) => {
+  let topMost = "justify-center items-center sticky top-1% h-24 w-full rounded-12px " + bgColor.color;
     return (
       <>
+      <div className={topMost}>
         <div className="flex h-full">
           <Link href="/" className="flex w-25% h-full px-0 items-center justify-items-start ">
             <NavBarIcon icon={<AiOutlineHome size="28" />} text={"Home!"} />
@@ -20,9 +22,11 @@ const NavBar = () => {
             </Link>
           </div>
         </div>
+      </div>
       </>
     );
   }
+  
   
   const NavBarIcon = ({icon, text = ''}) => {
     return (

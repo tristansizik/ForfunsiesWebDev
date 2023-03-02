@@ -8,10 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function BodyInfo() {
     return(
-      <main className= "flex flex-col justify-between items-center px-3% py-1% min-h-screen animate-fade-in-p7 space-y-1">
-        <div className="justify-center items-center sticky top-3% h-24 w-full bg-red-cedar-chest rounded-12px">
-          <NavBar/>    
-        </div>
+      <main className= "flex flex-col justify-between items-center px-3% py-1% min-h-screen space-y-1 animate-fade-in-p7">
+        <NavBar color={'bg-red-cedar-chest'}/>         
         <div className="items-center justify-center flex min-h-3/4 w-full bg-brown-pastel rounded-12px">
           <p className="font-montserrat font-bold text-7xl tracking-normal leading-snug pl-5 w-1/2 text-green-dark">Hi! I&apos;m Tristan Sizik, a Software Developer who tries his Best</p>
         </div>
