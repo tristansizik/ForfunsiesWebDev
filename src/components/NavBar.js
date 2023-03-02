@@ -11,7 +11,7 @@ const NavBar = () => {
             <NavBarIcon icon={<AiOutlineHome size="28" />} text={"Home!"} />
           </Link>
           <div className="flex w-50% h-full px-0 justify-center items-center">
-            <div className="flex  w-full h-full text-slate-700 font-montserrat text-2xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>
+            <div className="flex w-full h-full text-green-dark font-montserrat text-2xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>
             {/* <p className="relative bottom-0 text-slate-700 font-montserrat text-sm font-light h-50% w-full">Serial Hobbyist</p> */}
           </div>
           <div className="flex relative w-25% h-full justify-center items-center">      
