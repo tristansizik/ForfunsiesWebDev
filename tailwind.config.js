@@ -40,6 +40,7 @@ module.exports = {
         '50%' : '50vh',
       },
       minHeight:{
+        '1/2' : '50vh',
         '3/4' : '75vh',
       },
       inset: {
