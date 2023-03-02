@@ -13,7 +13,7 @@ export default function BodyInfo() {
           <NavBar/>    
         </div>
         <div className="items-center justify-center flex min-h-3/4 w-full bg-brown-pastel rounded-12px">
-          <p className="font-montserrat font-bold text-7xl tracking-normal leading-snug pl-5 w-1/2 text-green-dark">Hi! I'm Tristan Sizik, a Software Developer who tries his Best</p>
+          <p className="font-montserrat font-bold text-7xl tracking-normal leading-snug pl-5 w-1/2 text-green-dark">Hi! I&apos;m Tristan Sizik, a Software Developer who tries his Best</p>
         </div>
 
         <div className="grid grid-cols-3 gap-2 place-items-center min-h-screen w-full bg-blue-pastel rounded-12px">
