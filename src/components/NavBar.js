@@ -17,7 +17,8 @@ const NavBar = (bgColor) => {
             {/* <p className="relative bottom-0 text-slate-700 font-montserrat text-sm font-light h-50% w-full">Serial Hobbyist</p> */}
           </div>
           <div className="flex relative w-25% h-full justify-center items-center">      
-            <Link href="/creativecode" className="flex relative text-right right-10%">
+            {/* <Link href="/creativecode" className="flex relative text-right right-10%"> */}
+            <Link href="/threejspage" className="flex relative text-right right-10%">
               <NavBarIcon icon={<FaBars size="20" />} text={''} />
             </Link>
           </div>
