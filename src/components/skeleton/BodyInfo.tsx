@@ -15,9 +15,17 @@ export default function BodyInfo() {
         </div>
 
         <div className="grid grid-cols-3 gap-2 place-items-center min-h-screen w-full bg-blue-pastel rounded-12px">
-          <div className="items-center justify-center flex md:w-40 md:h-4/5 h-50% w-25% bg-pink-100 rounded-12px">1</div>
-          <div className="items-center justify-center flex w-40 h-4/5 bg-pink-300 rounded-12px">1</div>
-          <div className="items-center justify-center flex w-40 h-4/5 bg-pink-100 rounded-12px">1</div>
+          <div className="items-center justify-center flex w-40 h-4/5 rounded-12px">
+            <img src='./images/MySelfie.jpg' alt="Me :)" />
+          </div>
+          {/* <div className="items-center justify-center flex w-50 h-4/5 bg-pink-100 rounded-12px" ></div>     */}
+          <div className="items-center justify-center flex w-60 px-10 h-4/5 bg-pink-100 rounded-12px">
+            <p>
+            Howdy! Thanks for checking out my page. I&apos;m a software dev that loves to touch grass. Amongst my personal projects of learning front end development,
+            I take quests to camp with friends, am currently interested in traveling East in North America, and I love to snowboard (currently a Ikon Pass Holder).
+            I really want to get involved in some cool open source projects, so please contact me if you&apos;d like someone with the following skillsets...
+            </p>
+          </div>
           <div className="items-center justify-center flex w-40 h-4/5 bg-pink-100 rounded-12px">2</div>
           <div className="items-center justify-center flex w-40 h-4/5 bg-pink-300 rounded-12px">2</div>
           <div className="items-center justify-center flex w-40 h-4/5 bg-pink-100 rounded-12px">2</div>

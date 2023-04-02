@@ -8,6 +8,7 @@ const Box = (props : any) => {
   const [active, setActive] = useState(false);
 
   useFrame((state, delta) => (ref.current.rotation.x += 0.01));
+  useFrame((state, delta) => (ref.current.rotation.y += 0.001));
 
   return (
     <mesh
@@ -28,12 +29,14 @@ export default function ThreeJsSketch() {
   const canvasRef = useRef(null);
 
   return ( 
-    <Fragment> 
+    <div className="justify-center items-center w-full h-48">
+    <Fragment > 
       <Canvas ref={canvasRef}>
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
-        <Box position={[-1.2, -1, 0]} />
+        <Box position={[0, 0, 0]} />
       </Canvas>
     </Fragment>
+    </div>
   );
 }
