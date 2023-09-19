@@ -6,20 +6,19 @@ import ThreeJS from '@/components/sketches/ThreeJsSketch'
 
 export default function BodyInfo() {
     return(
-      <main className= "flex flex-col justify-between items-center min-h-screen bg-black animate-fade-in-p7">
+      <main className= "min-h-screen flex flex-col items-center bg-black animate-fade-in-p7">
         <NavBar/>         
-        <div className=" h-1/2 w-full bg-rusty-black rounded-12px flex flex-row">
-          <div className = "place-content-start w-100 bg-neon-green">
+        <div className="relative w-full inset-y-0 bg-rusty-black">
+          <div className = "absolute w-1/2 inset-y-0 left-0 place-content-start bg-neon-green">
             <p className="font-Saira text-xl md:tracking-normal text-neon-green">Hi! I&apos;m Tristan Sizik, a Software Developer who tries his Best</p>
           </div>
-          <div className = "place-content-center w-full">
+          <div className = "w-full place-content-center ">
             <ThreeJS/>
-          </div>
-          
+          </div>         
         </div>
 
-        <div className="place-content-center place-items-center h-50% w-full bg-blue-pastel flex flex-row gap-x-2">
-          <div className="static h-80 w-80">
+        <div className="relative top-0 h-50% w-full flex flex-row place-content-center place-items-center bg-blue-pastel">
+          <div className="relative h-80 w-80">
             <img src='./images/MySelfie.jpg' alt="Me :)" />
           </div>
           <div className="font-Saira static h-80 w-80 bg-orange-100">

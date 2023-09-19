@@ -4,7 +4,7 @@ import { IoShareSocialOutline } from "react-icons/io";
 import Link from 'next/link'
 
 const NavBar = (bgColor) => {
-  let topMost = "justify-center items-center sticky top-0.5 h-20 w-full  bg-faint-grey ";
+  let topMost = "justify-center items-center sticky top-0 h-20 w-full  bg-faint-grey ";
     return (
       <>
       <div className={topMost}>
