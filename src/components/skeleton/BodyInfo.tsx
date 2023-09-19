@@ -8,7 +8,7 @@ export default function BodyInfo() {
     return(
       <main className= "min-h-screen flex flex-col items-center bg-black animate-fade-in-p7">
         <NavBar/>         
-        <div className="relative w-full inset-y-0 bg-rusty-black">
+        <div className="relative h-50 w-full inset-y-0 my-8 bg-rusty-black">
           <div className = "absolute w-1/2 inset-y-0 left-0 place-content-start bg-neon-green">
             <p className="font-Saira text-xl md:tracking-normal text-neon-green">Hi! I&apos;m Tristan Sizik, a Software Developer who tries his Best</p>
           </div>
