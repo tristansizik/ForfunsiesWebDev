@@ -6,22 +6,24 @@ module.exports = {
     "./src/pages/**/*.{js,html,tsx}",
     "./src/components/**/*.{js,html,tsx}"
   ],
-  theme: {
-    fontFamily: {
-      'mono' : ['ui-monospace', 'Menlo', 'Monaco', 'Cascadia Mono', 'Segoe UI Mono',
-      'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-      'Fira Mono', 'Droid Sans Mono', 'Courier New', 'monospace'],
-    },
+  theme: {   
     borderColor: {
       'brown-1' : '#ACAFB0',
     },
-    extend: {
+    fontFamily: {
+      Saira: ["Saira","sans-serif"],
+    },
+    extend: {      
       colors: {
         'red-cedar-chest' : '#dea5a4',
         'green-dark'  : '#215a5b',
         'brown-pastel' : '#d7a29a',
-        'blue-pastel' : '#5f8cc9',
-      },
+        'blue-pastel' : '#8EA6CA',
+        'faint-grey' : '#8CC46A',
+        'green-blueish-dark' : '#167E00',
+        'neon-green' : 'var(--neon-green)',
+        'rusty-black' : 'var(--rusty-black)',
+      },          
       maxWidth: {
         '1100px' : '1100px',
       },
