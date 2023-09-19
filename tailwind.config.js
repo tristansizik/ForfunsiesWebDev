@@ -12,6 +12,7 @@ module.exports = {
     },
     fontFamily: {
       Saira: ["Saira","sans-serif"],
+      Hardigan: ["Hardigan"],
     },
     extend: {      
       colors: {
