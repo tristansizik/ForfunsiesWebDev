@@ -4,23 +4,24 @@ import { IoShareSocialOutline } from "react-icons/io";
 import Link from 'next/link'
 
 const NavBar = (bgColor) => {
-  let topMost = "justify-center items-center sticky top-0 h-20 w-full  bg-faint-grey ";
     return (
       <>
-      <div className={topMost}>
+      <div className="justify-center items-center sticky top-0 h-20 w-full bg-faint-grey ">
         <div className="flex h-full">
           <Link href="/" className="flex w-25% h-full px-0 items-center justify-items-start ">
             <NavBarIcon icon={<AiOutlineHome size="28" />} text={"Home!"} />
           </Link>
-          <div className="flex w-50% h-full px-0 justify-center items-center">
-            <div className="flex w-full h-full text-green-blueish-dark font-Hardigan text-2xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>
-            {/* <p className="relative bottom-0 text-slate-700 font-montserrat text-sm font-light h-50% w-full">Serial Hobbyist</p> */}
-          </div>
+            <div className="flex w-50% h-full text-green-blueish-dark font-Hardigan text-2xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>
           <div className="flex relative w-25% h-full justify-center items-center">      
             {/* <Link href="/creativecode" className="flex relative text-right right-10%"> */}
-            <Link href="/threejspage" className="flex relative text-right right-10%">
+            {/* <Link href="/threejspage" className="flex relative text-right right-10%">
               <NavBarIcon icon={<FaBars size="20" />} text={''} />
-            </Link>
+            </Link> */}
+            <div className="flex items-center text-base leading-5">
+              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark  hover:text-green-dark" href="/threejspage">Blog</a>
+              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/about">About</a>
+              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/contact">Contact</a>
+            </div>
           </div>
         </div>
       </div>

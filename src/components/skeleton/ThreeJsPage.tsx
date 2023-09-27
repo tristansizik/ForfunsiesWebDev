@@ -13,13 +13,10 @@ export default function BodyInfo() {
         <ThreeJS />
         <div className="w-full h-48 justify-center items-center ">
         <ThreeJS />
-        <ThreeJS />
         </div>
         <ThreeJS />
-          <ThreeJS />
-        <div className="justify-center flex min-h-screen w-full bg-green-400 rounded-12px">Box 2</div>
-          
-        
+        <ThreeJS />
+        <div className="justify-center flex min-h-screen w-full bg-green-400 rounded-12px"></div>
       </main>
     )
 }
