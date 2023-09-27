@@ -8,19 +8,18 @@ const NavBar = (bgColor) => {
       <>
       <div className="justify-center items-center sticky top-0 h-20 w-full bg-faint-grey ">
         <div className="flex h-full">
-          <Link href="/" className="flex w-25% h-full px-0 items-center justify-items-start ">
+          <Link href="/" className="flex w-25% h-full items-center justify-items-start ">
             <NavBarIcon icon={<AiOutlineHome size="28" />} text={"Home!"} />
           </Link>
             <div className="flex w-50% h-full text-green-blueish-dark font-Hardigan text-2xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>
-          <div className="flex relative w-25% h-full justify-center items-center">      
-            {/* <Link href="/creativecode" className="flex relative text-right right-10%"> */}
-            {/* <Link href="/threejspage" className="flex relative text-right right-10%">
+          <div className="flex relative h-full justify-center items-center">
+            <Link href="/threejspage" className="flex px-0 items-center w-25% md:hidden">
               <NavBarIcon icon={<FaBars size="20" />} text={''} />
-            </Link> */}
-            <div className="flex items-center text-base leading-5">
-              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark  hover:text-green-dark" href="/threejspage">Blog</Link>
-              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/about">About</Link>
-              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/contact">Contact</Link>
+            </Link>
+            <div className=" items-center text-base leading-5 hidden md:flex">
+              <Link className="px-2 font-Hardigan font-bold text-green-blueish-dark  hover:text-green-dark" href="/threejspage">Blog</Link>
+              <Link className="px-2 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/about">About</Link>
+              <Link className="px-2 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/contact">Contact</Link>
             </div>
           </div>
         </div>
