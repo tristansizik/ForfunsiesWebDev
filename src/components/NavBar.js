@@ -18,9 +18,9 @@ const NavBar = (bgColor) => {
               <NavBarIcon icon={<FaBars size="20" />} text={''} />
             </Link> */}
             <div className="flex items-center text-base leading-5">
-              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark  hover:text-green-dark" href="/threejspage">Blog</a>
-              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/about">About</a>
-              <a className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/contact">Contact</a>
+              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark  hover:text-green-dark" href="/threejspage">Blog</Link>
+              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/about">About</Link>
+              <Link className="px-3 font-Hardigan font-bold text-green-blueish-dark hover:text-green-dark" href="/contact">Contact</Link>
             </div>
           </div>
         </div>
