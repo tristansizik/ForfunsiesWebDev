@@ -15,7 +15,7 @@ export default function Custom404() {
             <div className="font-Saira text-3xl font-bold text-green-blueish-dark">ERROR 404</div>
             <div className="font-Saira text-l font-bold text-green-blueish-dark">PAGE NOT FOUND</div>
             <div className="relative h-80 w-80">
-                <Image src='./images/kirby-nintendo.gif' alt="Kirby :)" />
+                <Image src='/images/kirby-nintendo.gif' alt="Kirby :)" height={500} width={500} />
             </div>
         </div>
 
