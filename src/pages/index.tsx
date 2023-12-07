@@ -1,5 +1,5 @@
 import HeadInfo from '@/components/skeleton/HeadInfo'
-import BodyInfo from '@/components/skeleton/BodyInfo'
+import BodyInfo from '@/components/skeleton/Home'
 
 export default function Home() {
   return (
