@@ -10,7 +10,7 @@ export default function BodyInfo() {
         <NavBarHome/>         
         
         <div className="relative h-1/2 w-full inset-y-0 my-8 bg-rusty-black">
-        <div className="flex w-full h-full text-green-blueish-dark font-Hardigan text-5xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>          
+        <div className="flex text-green-blueish-dark font-Hardigan sm:text-5xl text-xl font-extrabold items-center justify-center">Tristan&apos;s Website</div>          
         <div className = "w-full place-content-center ">
           <ThreeJS/>
         </div>         
