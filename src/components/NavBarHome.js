@@ -10,8 +10,9 @@ const NavBarHome = (bgColor) => {
         <div className="flex h-full items-center font-Hardigan font-bold text-green-blueish-dark">
           <Link href="/" className="flex w-25% px-10 hover:text-green-dark ">Home</Link>
           <div className="flex w-50% h-full font-extrabold items-center"></div>
-          <div className="w-25% h-full ">                        
-            <div className="absolute sm:relative flex-col md:flex-row gap-10 top-[-100%] sm:top-[inherit]"
+          <div className="w-25% h-full">                        
+            <div className="absolute sm:relative flex-col md:flex-row top-[-100%] sm:top-[inherit]
+                            ease-in duration-300"
                  id="menu">
               <Link className="hover:text-green-dark" href="/threejspage">Blog</Link>
               <Link className="hover:text-green-dark" href="/about">About</Link>
