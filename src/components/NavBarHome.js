@@ -40,7 +40,7 @@ const NavBarHome = (bgColor) => {
   const ClickEvent = () => {
     console.log("I've been clicked");
     let menu = document.getElementById("menu");
-    menu.classList.toggle("top-[50px]");
+    menu.classList.toggle("top-[100]");
   }
 
   export default NavBarHome;
