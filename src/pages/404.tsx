@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBar'
+import NavBar from '@/components/NavBarTitle'
 import FootBar from '@/components/FootBar'
 import React, { useEffect } from 'react'
 import Image from 'next/image'
