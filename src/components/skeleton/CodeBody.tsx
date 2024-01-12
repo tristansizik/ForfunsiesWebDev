@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBar'
+import NavBar from '@/components/NavBarTitle'
 import { Inter } from '@next/font/google'
 
 import dynamic from 'next/dynamic'
