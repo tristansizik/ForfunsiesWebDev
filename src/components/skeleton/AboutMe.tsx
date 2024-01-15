@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBarTitle'
+import NavBarTitle from '@/components/NavBarTitle'
 import FootBar from '@/components/FootBar'
 import React, { useEffect } from 'react'
 import ThreeJS from '@/components/sketches/ThreeJsSketch'
@@ -7,7 +7,7 @@ import ThreeJS from '@/components/sketches/ThreeJsSketch'
 export default function BodyInfo() {
     return(
       <main className= "min-h-screen flex flex-col items-center bg-black animate-fade-in-p7">
-        <NavBar/>         
+        <NavBarTitle/>         
         <div className="relative h-50 w-full inset-y-0 my-8 bg-rusty-black">
           <div className = "absolute w-1/2 inset-y-0 left-0 place-content-start bg-neon-green">
             <p className="font-Saira text-3xl md:tracking-normal text-neon-green">ABOUT ME</p>

@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBarTitle'
+import NavBarTitle from '@/components/NavBarTitle'
 import { Inter } from '@next/font/google'
 
 import ThreeJS from '@/components/sketches/ThreeJsSketch'
@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function BodyInfo() {
     return(
       <main className= "flex flex-col justify-between items-center px-3% py-1% min-h-screen space-y-1 animate-fade-in-p7">
-        <NavBar color={'bg-red-cedar-chest'}/>
+        <NavBarTitle color={'bg-red-cedar-chest'}/>
 
         <ThreeJS />
         <div className="w-full h-48 justify-center items-center ">
