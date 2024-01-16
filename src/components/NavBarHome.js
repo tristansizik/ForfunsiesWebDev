@@ -13,7 +13,7 @@ const NavBarHome = (bgColor) => {
           <div className='col-span-2 font-Hardigan font-bold text-green-blueish-dark'>
           </div>  
           <div className="col-span-1 font-Hardigan font-bold text-green-blueish-dark">  
-           <ul className="md:flex items-center justify-center md:static absolute h-full w-full 
+           <ul className="md:flex items-center justify-center md:static absolute h-full w-auto 
            md:w-auto gap-2 flex-col md:flex-row transition-all opacity-0 md:opacity-100 top-[-200px] ease-in bg-faint-grey
            duration-400"
                  id="menu">

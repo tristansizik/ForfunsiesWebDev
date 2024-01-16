@@ -13,16 +13,16 @@ const NavBarTitle = (bgColor) => {
           <div className='col-span-2 flex font-Hardigan font-bold text-2xl text-green-blueish-dark w-full h-full justify-center items-center'>Tristan&apos;s Website
           </div>  
           <div className="col-span-1 font-Hardigan font-bold text-green-blueish-dark">  
-           <ul className="md:flex items-center justify-center md:static absolute h-full w-full 
+           <ul className="md:flex items-center justify-center md:static absolute h-full w-auto
            md:w-auto gap-2 flex-col md:flex-row transition-all opacity-0 md:opacity-100 top-[-200px] ease-in bg-faint-grey
            duration-400"
                  id="menu">
               <li className='md:my-0'>
-                <Link className="hover:text-green-dark" href="/threejspage">Blog</Link>
-              </li>
-              <li className='md:my-0'>
                 <Link className="hover:text-green-dark" href="/about">About</Link>
               </li>
+              <li className='md:my-0'>
+                <Link className="hover:text-green-dark" href="/threejspage">Blog</Link>
+              </li>             
               <li className='md:my-0'>
                 <Link className="hover:text-green-dark" href="/contact">Contact</Link>    
               </li>                     
