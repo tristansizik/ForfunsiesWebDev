@@ -2,6 +2,7 @@ import NavBarTitle from '@/components/NavBarTitle'
 import FootBar from '@/components/FootBar'
 import React, { useEffect } from 'react'
 import ThreeJS from '@/components/sketches/ThreeJsSketch'
+import Image from 'next/image'
 
 
 export default function BodyInfo() {
@@ -23,7 +24,7 @@ export default function BodyInfo() {
 
         <div className="grid grid-rows-1 flex my-20 h-50% w-full flex flex-row place-content-center place-items-center bg-blue-pastel">
           <div className="flex row-span-1 w-full justify-center items-center">
-            <img src='./images/MySelfie.jpg' alt="Me :)" className="h-48 md:h-25%"/>
+            <Image src='./images/MySelfie.jpg' alt="Me :)" className="h-48 md:h-25%"/>
           </div>
           <div className="flex row-span-1 w-full font-Saira text-s static bg-orange-100 w-full md:w-50%">
             <p>
