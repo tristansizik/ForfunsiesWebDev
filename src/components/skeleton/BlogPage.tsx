@@ -15,18 +15,18 @@ export default function BodyInfo() {
           </div>
           <div className='flex flex-col col-start-2 row-start-1 col-span-4 justify-center items-left'>
             <h1 className="font-Hardigan text-3xl animate-fade-in-p0 ease-in">Sup, Welcome to my Blog</h1>
-            <p className="font-Hardigan ">A space where I can place my favorite these and those</p>
+            <p className="font-Saira ">A space where I can place my favorite these and those</p>
           </div>
           <div className='flex flex-col col-start-1 row-start-2 col-span-3 justify-center items-center'>
             <h1 className="font-Hardigan text-3xl animate-fade-in-p0 ease-in">My Favorite Music Artists</h1>
-            <p className="font-Hardigan ">Currently: Jamie XX, Caribou, Maya Jane Coles, William Kiss</p>
+            <p className="font-Saira ">Currently: Jamie XX, Caribou, Maya Jane Coles, William Kiss</p>
           </div>
           <div className='col-start-4 row-start-2'>
           <ThreeJS />
           </div>
           <div className='flex grid grid-rows-subgrid grid-cols-subgrid col-start-1 row-start-3 col-span-2 row-span-2 justify-center'>
             <h1 className="flex row-start-1 col-start-1 col-span-2 font-Hardigan text-3xl animate-fade-in-p0 ease-in justify-center items-end">My Favorite Hobbies</h1>
-            <p className="flex font-Hardigan row-start-2 col-start-1 col-span-2 justify-center">Snowboarding, Morning Jogs, Making Coffee, Web Development, Film Photography, and Making/Mixing Music</p>
+            <p className="flex font-Saira row-start-2 col-start-1 col-span-2 justify-center">Snowboarding, Morning Jogs, Making Coffee, Web Development, Film Photography, and Making/Mixing Music</p>
           </div>
           <div className='col-start-3 row-start-3 row-span-2'>
           <ThreeJS />
@@ -34,7 +34,7 @@ export default function BodyInfo() {
           </div>
           <div className='flex grid grid-rows-subgrid grid-cols-subgrid col-start-4 row-start-3 col-span-2 row-span-2 justify-center'>
             <h1 className="flex row-start-1 col-start-1 col-span-2 font-Hardigan text-3xl animate-fade-in-p0 ease-in justify-center items-end">My Favorite Food</h1>
-            <p className="flex font-Hardigan row-start-2 col-start-1 col-span-2 justify-center">Cioppino, American Currency, The Rich</p>
+            <p className="flex font-Saira row-start-2 col-start-1 col-span-2 justify-center">Cioppino, American Currency, The Rich</p>
           </div>
         </div>
         

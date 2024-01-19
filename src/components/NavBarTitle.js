@@ -21,7 +21,7 @@ const NavBarTitle = (bgColor) => {
                 <Link className="hover:text-green-dark" href="/about">About</Link>
               </li>
               <li className='md:my-0'>
-                <Link className="hover:text-green-dark" href="/threejspage">Blog</Link>
+                <Link className="hover:text-green-dark" href="/blog">Blog</Link>
               </li>             
               <li className='md:my-0'>
                 <Link className="hover:text-green-dark" href="/contact">Contact</Link>    
