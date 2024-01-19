@@ -24,7 +24,7 @@ export default function BodyInfo() {
 
         <div className="grid grid-rows-1 flex my-20 h-50% w-full flex flex-row place-content-center place-items-center bg-blue-pastel">
           <div className="flex row-span-1 w-full justify-center items-center">
-            <Image src='./images/MySelfie.jpg' alt="Me :)" className="h-48 md:h-25%"/>
+            <Image src='/images/MySelfie.jpg' alt="Me :)" height={300} width={200}/>
           </div>
           <div className="flex row-span-1 w-full font-Saira text-s static bg-orange-100 w-full md:w-50%">
             <p>
