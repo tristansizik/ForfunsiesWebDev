@@ -1,5 +1,6 @@
 import NavBarTitle from '@/components/NavBarTitle'
 import { Inter } from '@next/font/google'
+import Marquee from "react-fast-marquee"
 
 import ThreeJS from '@/components/sketches/ThreeJsSketch'
 
@@ -40,7 +41,7 @@ export default function BodyInfo() {
         
         <div className="flex grid grid-cols-3 grid-rows-3 grid-rows gap-3 justify-center w-full bg-green-400 rounded-12px">
           <div className='flex col-start-1 row-start-1 justify-center items-center font-Hardigan text-xl'>
-            Mixes that I&aposm Proud of
+            <p>Mixes that I&apos;m Proud of</p>
           </div>
           <div className='flex col-start-2 row-start-1 col-span-2 justify-center items-center'>
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1349917435&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -48,9 +49,11 @@ export default function BodyInfo() {
           <div className='col-start-1 row-start-2 col-span-2 justify-center items-center'>
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/335282641&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           </div>
-          <div className='flex col-start-2 row-start-3 row-span-1 justify-center items-center font-Hardigan text-xl'>
-            More to Come Soooonnnnnn
-          </div>
+          <div className='flex col-start-1 row-start-3 row-span-1 col-span-3 justify-center items-center font-Hardigan text-xl'>
+          <Marquee speed={100}>
+            <p>MOOOOOOOOOOOOOOOORE TO COOOOOOOOOOOME SOOOOOOOOOOOOOOON</p>
+          </Marquee>
+          </div>          
         </div>
       </main>
     )
