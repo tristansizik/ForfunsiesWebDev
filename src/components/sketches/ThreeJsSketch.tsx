@@ -5,7 +5,7 @@ import {Mesh} from 'three'
 const Box = (props : any) => {
   const ref = useRef<Mesh>(null!);
   const [hovered, setHover] = useState(false);
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
   useFrame((state, delta) => (ref.current.rotation.x += 0.01));
   useFrame((state, delta) => (ref.current.rotation.y += 0.001));
@@ -14,8 +14,8 @@ const Box = (props : any) => {
     <mesh
       {...props}
       ref={ref}
-      scale={active ? 1.5 : 1}
-      onClick={(event) => setActive(!active)}
+      // scale={active ? 1.5 : 1}
+      // onClick={(event) => setActive(!active)}
       onPointerOver = {(event) => setHover(true)}
       onPointerOut = {(event) => setHover(false)}
       >
