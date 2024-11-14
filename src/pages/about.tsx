@@ -1,11 +1,11 @@
 import HeadInfo from '@/components/skeleton/HeadInfo'
-import BodyInfo from '@/components/skeleton/Home'
+import AboutMe from '@/components/skeleton/AboutMe'
 
 export default function Home() {
   return (
     <>
       <HeadInfo/>    
-      <BodyInfo/>
+      <AboutMe/>
     </>
   )
 }

@@ -1,12 +1,11 @@
 import HeadInfo from '@/components/skeleton/HeadInfo'
-import CodeBody from '@/components/skeleton/CodeBody'
+import BlogPage from '@/components/skeleton/BlogPage'
 
 export default function Photogallery() {
   return (
     <>
         <HeadInfo/>
-        <CodeBody/>
-      <p>hi</p>
+        <BlogPage/>
     </>
   )
 }

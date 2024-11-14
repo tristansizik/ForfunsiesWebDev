@@ -6,7 +6,8 @@ import Link from 'next/link'
 const FootBar = () => {
     return (
       <>
-        <div className="flex h-full items-center">
+        <div className="mt-16 flex flex-col items-center">
+          <div className="mb-3 flex space-x-4">
             <Link href="https://soundcloud.com/mastless" className="flex relative text-right w-full">
               <FootBarIcon icon={<FaSoundcloud size="20" />} text={"My Twitter"} />
             </Link>        
@@ -16,6 +17,15 @@ const FootBar = () => {
             <Link href="https://github.com/tristansizik" className="relative text-right w-full">
               <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
             </Link>
+          </div>
+          <div className="mb-3 flex space-x-2 text-xl font-Hardigan text-green-blueish-dark">
+            <div>✫✫✫✫✫</div>
+          </div>
+          <div className="mb-8 flex space-x-2 text-sm font-Hardigan text-green-blueish-dark">
+            <div>Tristan Sizik</div>
+            <div>❃</div>
+            <div>© 2023</div>
+          </div>
          </div>
       </>
     );
