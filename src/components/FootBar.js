@@ -8,23 +8,23 @@ const FootBar = () => {
       <>
         <div className="mt-16 flex flex-col items-center">
           <div className="mb-3 flex space-x-4">
-            <Link href="https://soundcloud.com/mastless" className="flex relative text-right w-full">
+            <Link href="https://soundcloud.com/solacedotaif" className="flex relative text-right w-full">
               <FootBarIcon icon={<FaSoundcloud size="20" />} text={"My Twitter"} />
             </Link>        
-            <Link href="https://www.instagram.com/mastless_/" className="flex relative text-right w-full">
+            <Link href="https://www.instagram.com/treee.stone/" className="flex relative text-right w-full">
               <FootBarIcon icon={<AiFillInstagram size="20" />} text={"My Instagram"} />
             </Link>
             <Link href="https://github.com/tristansizik" className="relative text-right w-full">
               <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
             </Link>
           </div>
-          <div className="mb-3 flex space-x-2 text-xl font-Hardigan text-green-blueish-dark">
+          <div className="mb-3 flex space-x-2 text-xl font-Helvetica text-[#2e2e3a]">
             <div>✫✫✫✫✫</div>
           </div>
-          <div className="mb-8 flex space-x-2 text-sm font-Hardigan text-green-blueish-dark">
+          <div className="mb-8 flex space-x-2 text-sm font-Helvetica text-[#2e2e3a]">
             <div>Tristan Sizik</div>
             <div>❃</div>
-            <div>© 2023</div>
+            <div>© 2025</div>
           </div>
          </div>
       </>
