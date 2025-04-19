@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {FaBars } from 'react-icons/fa'
+import {FaBars,FaAdjust } from 'react-icons/fa'
 import React, { useEffect, useState } from 'react'
 
 const NavBarHome = (bgColor) => {
@@ -47,4 +47,18 @@ const NavBarHome = (bgColor) => {
     );
   }
 
+  const NavBarIcon = ({icon}) => {
+    return (
+    <button onClick={ClickEvent} className="navbar-icon group">
+      {icon}
+    </button>
+    );
+  }
+
+  const ClickEvent = () => {
+    let menu = document.getElementById("menu");
+    let icon = document.getElementById("icon");
+    menu.classList.toggle("top-[50px]");
+    menu.classList.toggle("opacity-100");
+  }
   export default NavBarHome;
