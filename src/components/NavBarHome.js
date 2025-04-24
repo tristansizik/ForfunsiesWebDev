@@ -16,13 +16,13 @@ const NavBarHome = (bgColor) => {
   
     return (
       <>
-      <div className="flex flex-row justify-between items-center sticky h-20 w-2/3 font-Helvetica font-bold text-[#2e2e3a]">
+      <div className="flex flex-row justify-between items-center sticky h-20 w-2/3 font-Helvetica font-bold text-dark-grayish-blue">
           <div className='left h-full me-[100px] w-[120px]'>
             <Link href="/" className="flex h-full items-center justify-center hover:text-green-dark">Home</Link>
           </div>    
-          <div className="right grid grid-cols-7 right items-center justify-center h-full w-[360px] font-bold text-[#2e2e3a]">  
+          <div className="right grid grid-cols-7 items-center justify-center h-full w-[360px] font-bold text-dark-grayish-blue">  
             <div className='flex items-center justify-center col-span-2'>
-              <Link className="flex items-center justify-center col-span-1 hidden hover:text-green-dark sm:block" href="/threejspage">Blog</Link>
+              <Link className="flex items-center justify-center col-span-1 hidden hover:text-green-dark sm:block" href="/portfolio">Portfolio</Link>
             </div>
             <div className='flex items-center justify-center col-span-2'>
               <Link className="flex items-center justify-center col-span-1 hidden hover:text-green-dark sm:block" href="/about">About</Link>

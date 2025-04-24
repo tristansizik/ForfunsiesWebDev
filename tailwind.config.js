@@ -24,6 +24,10 @@ module.exports = {
         'green-blueish-dark' : '#167E00',
         'neon-green' : 'var(--neon-green)',
         'rusty-black' : 'var(--rusty-black)',
+        'coral' : "#de9151",
+        'vivid-red' : "#f34213",
+        'dark-grayish-blue' : '#2e2e3a',
+
       },          
       maxWidth: {
         '1100px' : '1100px',

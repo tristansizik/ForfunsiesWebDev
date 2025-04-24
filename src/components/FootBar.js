@@ -18,10 +18,10 @@ const FootBar = () => {
               <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
             </Link>
           </div>
-          <div className="mb-3 flex space-x-2 text-xl font-Helvetica text-[#2e2e3a]">
+          <div className="mb-3 flex space-x-2 text-xl font-Helvetica text-dark-grayish-blue">
             <div>✫✫✫✫✫</div>
           </div>
-          <div className="mb-8 flex space-x-2 text-sm font-Helvetica text-[#2e2e3a]">
+          <div className="mb-8 flex space-x-2 text-sm font-Helvetica text-dark-grayish-blue">
             <div>Tristan Sizik</div>
             <div>❃</div>
             <div>© 2025</div>
