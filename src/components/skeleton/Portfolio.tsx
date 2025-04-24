@@ -13,7 +13,7 @@ export default function BodyInfo() {
           <div className="h-[80%] w-[80%] bg-coral">
             <div className="flex flex-col justify-center items-center w-full h-full">
               <h1 className="font-Helvetica font-bold text-6xl text-dark-grayish-blue mb-10">WELCOME TO MY WORLD</h1>
-              <p className='font-Helvetica font-bold text-xl text-dark-grayish-blue'>A passionate, eclectic creative sharing his adventures in this cozy digital nook</p>
+              <p className='font-Helvetica font-bold text-xl text-dark-grayish-blue'>My Slices of Life</p>
               <div className='grid grid-cols-6 justify-evenly items-center h-[50px] w-[50%] bg-white mt-20'>
                 <button className="flex col-span-1 h-full w-full bg-[#585800] justify-center items-center text-white">
                   Application Engineer
@@ -37,11 +37,15 @@ export default function BodyInfo() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 h-screen w-full items-center justify-evenly bg-black">
-          <div className="flex col-span-1 h-full w-full bg-[#585858] justify-center items-center text-white">
+        <div className="grid grid-rows-8 grid-cols-6 h-screen w-full items-center justify-evenly bg-black">
+          <div className="row-span-1 col-span-4 w-full h-full bg-[#585858] items-center pl-10 text-white">
+            <h1 className="row-span-1 font-Helvetica font-bold text-3xl text-dark-grayish-blue mb-10">APPLICATION ENGINEER BY DAY</h1>
+            <p className='row-span-1 font-Helvetica font-bold text-xl text-dark-grayish-blue'>Software Engineer, Innovator, Professional Problem Solver</p>
+          </div>
+          <div className="row-span-2 col-span-3 h-full w-full bg-[#111111] items-center justify-center text-white">
             Hi
           </div>
-          <div className="flex col-span-1 h-full w-full bg-[#111111] items-center justify-center text-white">
+          <div className="row-span-2 col-span-3 h-full w-full bg-[#111111] items-center justify-center text-white">
             Hi
           </div>
         </div>
