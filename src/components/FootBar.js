@@ -6,8 +6,8 @@ import Link from 'next/link'
 const FootBar = () => {
     return (
       <>
-        <div className="mt-16 flex flex-col items-center">
-          <div className="mb-3 flex space-x-4">
+        <div className="mt-0 md:mt-16 flex flex-col items-center">
+          <div className="md:mb-3 flex space-x-4">
             <Link href="https://soundcloud.com/solacedotaif" className="flex relative text-right w-full">
               <FootBarIcon icon={<FaSoundcloud size="20" />} text={"My Twitter"} />
             </Link>        
@@ -18,7 +18,7 @@ const FootBar = () => {
               <FootBarIcon icon={<AiOutlineGithub size="20" />} text={"My Github"} />
             </Link>
           </div>
-          <div className="mb-3 flex space-x-2 text-xl font-Helvetica text-dark-grayish-blue">
+          <div className="md:mb-3 flex space-x-2 text-xl font-Helvetica text-dark-grayish-blue">
             <div>✫✫✫✫✫</div>
           </div>
           <div className="mb-8 flex space-x-2 text-sm font-Helvetica text-dark-grayish-blue">
