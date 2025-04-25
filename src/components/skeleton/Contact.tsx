@@ -12,7 +12,7 @@ export default function BodyInfo() {
         <div className="flex h-[80vh] w-full bg-vivid-red justify-center items-center">
           <div className="h-[40%] w-[80%] bg-coral">
             <div className="flex flex-col justify-top items-center w-full h-full pt-10">
-              <h1 className="font-Helvetica font-bold text-5xl text-dark-grayish-blue">Lets Stay In Touch!</h1>
+              <h1 className="font-Helvetica font-bold text-5xl text-dark-grayish-blue">Let&apos;s Stay In Touch!</h1>
               <button className="flex col-span-1 h-[50px] w-[50%] bg-[#585800] justify-center items-center text-white my-10">
                 Email
               </button>
