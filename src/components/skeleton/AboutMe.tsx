@@ -15,10 +15,10 @@ export default function BodyInfo() {
                 <div className = "flex flex-col col-span-1 h-full w-full">
                   <p className= "flex w-full font-Helvetica text-3xl text-dark-grayish-blue items-top justify-left pl-10 py-5">ABOUT ME</p>
                   <p className= "flex w-full font-Helvetica text-base text-dark-grayish-blue items-top justify-left pl-10 py-5">
-                  I'm a multifaceted artist and innovator from San Diego with a gift for adapting to whatever needs to be done.<br/><br/>
-I have a burning love for learning, which motivates me to push past fear in pursuit of my goals. I'm skilled at problem-solving and passionate about creating meaningful human connections—I truly believe that community can accelerate any passion or dream.<br/><br/>
+                  I&apos;m a multifaceted artist and innovator from San Diego with a gift for adapting to whatever needs to be done.<br/><br/>
+I have a burning love for learning, which motivates me to push past fear in pursuit of my goals. I&apos;m skilled at problem-solving and passionate about creating meaningful human connections—I truly believe that community can accelerate any passion or dream.<br/><br/>
 This love for learning has inspired me to take on the traits of a jack-of-all-trades. I earned a degree in Computer Engineering from San Diego State University, and my journey has led me to develop skills as a Software Engineer, Photographer, Graphic Designer, Web Developer, Business Marketer, Music Producer, and DJ.<br/><br/>
-When I'm not tinkering at my desk, you’ll find me training for a half marathon, surfing, snowboarding, or thrifting to express myself through fashion.<br/><br/>
+When I&apos;m not tinkering at my desk, you&apos;ll find me training for a half marathon, surfing, snowboarding, or thrifting to express myself through fashion.<br/><br/>
 If you're interested in working together, have questions about any of my hobbies, or simply want to crowd my inbox, feel free to reach out via the Contact page.
               
                   </p>
