@@ -83,6 +83,7 @@ module.exports = {
       },
       animation: {
         'fade-in-p7' : 'fade-in-down .7s ease-in',
+        'fade-in-1s' : 'fade-in-down 1s ease-in',
       },
     },
   },
