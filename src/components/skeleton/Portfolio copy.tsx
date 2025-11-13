@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import NavBarTitle from '@/components/NavBarTitle'
+import Link from "next/link";
 
 
 export default function Portfolio() {
@@ -20,12 +21,24 @@ export default function Portfolio() {
       color: "bg-black",
       content: (
         <div className="flex flex-col items-center gap-4">
-          <p className="text-gray-300 text-center max-w-xl">
-            I chase rhythms that make people feel free. Every set is an experiment in connection and atmosphere.
-          </p>
-          <div className="w-3/4 h-64 bg-gray-800 rounded-2xl flex items-center justify-center text-gray-500">
-            [ Visual / Music Embed Placeholder ]
+          <p className="flex-1 text-gray-300 text-center max-w-xl">
+            I see DJing as more than mixing tracks — it&apos;s about transformation. 
+            I blend songs seamlessly, reshaping them into something new and unexpected.
+            My style draws influence from artists like Daphni, Jamie XX, SWIM, and O&apos;Flynn.       </p>
+          <div className="flex-1 w-3/4 h-64 bg-gray-800 rounded-2xl flex items-center justify-center text-gray-500">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/404fiR_ziUo?si=oFHpvAdJ784d3uUb" 
+              title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
+            </iframe>
           </div>
+          <div className="flex-1 w-3/4 h-64 bg-gray-800 rounded-2xl flex items-center justify-center text-gray-500">
+            <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" 
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2211721349&color=%23c09450&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+            <div className="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+              <Link href="https://soundcloud.com/tristanmayondj" title="tristanmayondj" target="_blank" className="color: #cccccc; text-decoration: none;"></Link> 
+            </div>
+        </div>
         </div>
       ),
     },
@@ -65,7 +78,7 @@ export default function Portfolio() {
     {
       id: "code",
       title: "Coding Projects",
-      color: "bg-dark-gray",
+      color: "bg-[#5B5941]",
       content: (
         <div className="flex flex-col items-center gap-4">
           <p className="text-gray-300 text-center max-w-xl">
